@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geografia — Portal 117</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/config.js" defer></script>
+    <script src="js/dados.js" defer></script>
+    <script src="js/atividade.js" defer></script>
+    <script src="js/menu.js" defer></script>
+    <script src="js/trabalho.js" defer></script>
+    <script src="js/app.js" defer></script>
+</head>
+
+<body id="top">
+
+    <header>
+        <nav class="menu">
+            <a href="index.html" class="logo">Portal 117</a>
+
+            <button id="botao-menu" aria-label="Abrir menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <div id="menu-links"></div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h1>Pesquisas de Geografia</h1>
+
+            <p>
+                Pesquisas sobre os impactos da computação no meio ambiente,
+                abordando seus efeitos e desafios ambientais.
+            </p>
+        </section>
+
+        <section class="filtros">
+
+            <h2>Encontrar pesquisas</h2>
+
+            <input
+                type="text"
+                id="busca"
+                placeholder="Buscar por texto..."
+            >
+
+            <select id="filtro-tema">
+                <option value="">Todos os temas</option>
+            </select>
+
+            <select id="filtro-grupo">
+                <option value="">Todos os grupos</option>
+            </select>
+
+            <p id="contador"></p>
+
+        </section>
+
+        <section>
+            <div id="lista-trabalhos"></div>
+        </section>
+        
+        <section>
+            <h2>Atividade interativa</h2>
+
+            <p>Teste seus conhecimentos sobre os impactos ambientais dos data centers.</p>
+
+            <h3>1. Por que o funcionamento de data centers pode representar um impacto ambiental significativo?</h3>
+
+            <label><input type="radio" name="q1" value="a"> Porque os servidores produzem resíduos radioativos.</label><br>
+            <label><input type="radio" name="q1" value="b"> Porque demandam energia elétrica continuamente, além de sistemas de refrigeração.</label><br>
+            <label><input type="radio" name="q1" value="c"> Porque dependem exclusivamente de combustíveis fósseis para funcionar.</label>
+
+            <h3>2. Qual fator determina a intensidade das emissões de gases de efeito estufa associadas ao consumo elétrico de um data center?</h3>
+
+            <label><input type="radio" name="q2" value="a"> A quantidade de computadores utilizados pelos funcionários.</label><br>
+            <label><input type="radio" name="q2" value="b"> A localização geográfica do edifício, independentemente da fonte de energia.</label><br>
+            <label><input type="radio" name="q2" value="c"> A composição da matriz elétrica que fornece energia à instalação.</label>
+
+            <h3>3. Por que o consumo de água pode ser uma preocupação ambiental na operação de data centers?</h3>
+
+            <label><input type="radio" name="q3" value="a"> Porque determinados sistemas de refrigeração utilizam água para dissipar calor.</label><br>
+            <label><input type="radio" name="q3" value="b"> Porque todos os servidores precisam ser resfriados por imersão em água.</label><br>
+            <label><input type="radio" name="q3" value="c"> Porque a água é utilizada como fonte principal de eletricidade dos servidores.</label>
+
+            <h3>4. Além dos impactos durante o funcionamento, qual alternativa representa um possível impacto ambiental da construção de um data center?</h3>
+
+            <label><input type="radio" name="q4" value="a"> A eliminação da necessidade de infraestrutura elétrica na região.</label><br>
+            <label><input type="radio" name="q4" value="b"> O consumo de materiais de construção e a alteração do uso do solo.</label><br>
+            <label><input type="radio" name="q4" value="c"> A redução automática da temperatura do ambiente ao redor.</label>
+
+            <br><br>
+
+            <button id="verificar-resposta">Verificar respostas</button>
+
+            <p id="resultado-atividade"></p>
+        </section>
+
+           
+    </main>
+
+    <footer>
+        <p>© 2026 — IFSP Campus Cubatão · Turma 117</p>
+        <a href="#top">Voltar ao topo ↑</a>
+    </footer>
+</body>
+</html>
