@@ -324,3 +324,35 @@ footer p {
         height: auto;
     }
 }
+/* PAGINAÇÃO */
+.paginacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 25px 0;
+    flex-wrap: wrap;
+}
+
+.paginacao button {
+    padding: 8px 13px;
+    border: 1px solid var(--borda);
+    background-color: var(--branco);
+    color: var(--texto);
+    cursor: pointer;
+}
+
+.paginacao button:disabled {
+    background-color: var(--destaque);
+    color: var(--branco);
+    cursor: default;
+}
+figure {
+    margin: 20px 0;
+}
+
+figcaption {
+    color: var(--texto);
+    font-size: 14px;
+    margin-top: 8px;
+}
