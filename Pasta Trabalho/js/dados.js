@@ -6,8 +6,8 @@ const trabalhos = [
         titulo: "Campus Campinas: a expansão dos data centers em Barão Geraldo",
         tema: "O empreendimento em Campinas",
         modo: "grupo",
-        autores: ["[Nome dos integrantes]"],
-        grupo: "Grupo [número]",
+        autores: ["Lorenzo, Gabriel, Wilmar, Téo, Noah"],
+        grupo: "Pesquisa 1",
         data: "2026-11-15",
         resumo: "Conheça o projeto de data center anunciado para a região de Barão Geraldo e suas dimensões, objetivos e possíveis consequências para Campinas.",
         texto: [
@@ -18,7 +18,7 @@ const trabalhos = [
             "O caso de Campinas permite discutir uma questão central: como conciliar o desenvolvimento tecnológico e econômico com a proteção dos recursos naturais e do espaço urbano? A resposta depende não apenas das tecnologias utilizadas, mas também do planejamento territorial, da fiscalização pública e da participação da população."
         ],
         imagem: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/5/51/Front_of_server_racks_at_NERSC.jpg",
+            src: "img/Front_of_server_racks_at_NERSC.jpg",
             alt: "Corredor de um centro de processamento de dados com fileiras de servidores.",
             legenda: "Imagem ilustrativa de um data center. Não representa o empreendimento Campus Campinas."
         },
@@ -40,8 +40,8 @@ const trabalhos = [
         titulo: "O consumo de energia dos data centers e a infraestrutura elétrica",
         tema: "Consumo de energia",
         modo: "grupo",
-        autores: ["[Nome dos integrantes]"],
-        grupo: "Grupo [número]",
+        autores: ["Lorenzo, Gabriel, Wilmar, Téo, Noah"],
+        grupo: "Pesquisa 2",
         data: "2026-11-15",
         resumo: "Entenda por que os data centers consomem tanta eletricidade e quais são os desafios para o abastecimento energético de Campinas.",
         texto: [
@@ -52,7 +52,7 @@ const trabalhos = [
             "O impacto climático do consumo elétrico depende também da origem da eletricidade. Quando a demanda adicional é atendida por fontes de maior emissão de gases de efeito estufa, a pegada de carbono tende a aumentar. Por isso, é importante conhecer a matriz elétrica utilizada, os contratos de energia renovável e as medidas de eficiência energética adotadas pelo empreendimento."
         ],
         imagem: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Electrical_Substation.JPG",
+            src: "img/Electrical_Substation.jpg",
             alt: "Fileiras de equipamentos e servidores em um centro de processamento de dados.",
             legenda: "Servidores precisam de fornecimento contínuo de energia elétrica."
         },
@@ -78,8 +78,8 @@ const trabalhos = [
         titulo: "Consumo de água e segurança hídrica na região de Campinas",
         tema: "Consumo de água",
         modo: "grupo",
-        autores: ["[Nome dos integrantes]"],
-        grupo: "Grupo [número]",
+        autores: ["Lorenzo, Gabriel, Wilmar, Téo, Noah"],
+        grupo: "Pesquisa 3",
         data: "2026-11-15",
         resumo: "Analise a relação entre os sistemas de refrigeração dos data centers, o Rio Atibaia e a disponibilidade de água nas Bacias PCJ.",
         texto: [
@@ -91,7 +91,7 @@ const trabalhos = [
             "Portanto, a questão não é afirmar antecipadamente que o empreendimento causará falta de água, mas avaliar se sua demanda será compatível com a disponibilidade hídrica regional e se haverá monitoramento e transparência suficientes para proteger o abastecimento da população."
         ],
         imagem: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/b/b1/Atibaia_River.jpg",
+            src: "img/Atibaia_River.jpg",
             alt: "Vegetação densa da Mata de Santa Genebra, em Campinas.",
             legenda: "A conservação dos recursos hídricos também depende da proteção dos ecossistemas e das áreas naturais."
         },
@@ -117,8 +117,8 @@ const trabalhos = [
         titulo: "Ocupação do solo, biodiversidade e impactos na paisagem urbana",
         tema: "Uso do solo e biodiversidade",
         modo: "grupo",
-        autores: ["[Nome dos integrantes]"],
-        grupo: "Grupo [número]",
+        autores: ["Lorenzo, Gabriel, Wilmar, Téo, Noah"],
+        grupo: "Pesquisa 4",
         data: "2026-11-15",
         resumo: "Investigue como grandes empreendimentos alteram o território e por que a localização do Campus Campinas exige atenção ambiental e urbanística.",
         texto: [
@@ -130,7 +130,7 @@ const trabalhos = [
             "A análise territorial demonstra que o impacto ambiental de um data center não se limita ao consumo de energia e água. A escolha do local, a dimensão da ocupação e a relação com os ecossistemas e com a população também são elementos fundamentais para avaliar a sustentabilidade do empreendimento."
         ],
         imagem: {
-            src: "https://upload.wikimedia.org/wikipedia/commons/4/40/Entrada_da_ARIE_Mata_Santa_Genebra.jpg",
+            src: "img/Entrada_da_ARIE_Mata_Santa_Genebra.jpg",
             alt: "Trilha cercada pela vegetação da Mata de Santa Genebra, em Campinas.",
             legenda: "A Mata de Santa Genebra é uma referência de conservação ambiental no território campineiro."
         },
@@ -156,8 +156,8 @@ const trabalhos = [
         titulo: "Licenciamento ambiental e fiscalização dos data centers na Região Metropolitana de Campinas",
         tema: "Licenciamento e fiscalização",
         modo: "grupo",
-        autores: ["[Nome dos integrantes]"],
-        grupo: "Grupo [número]",
+        autores: ["Lorenzo, Gabriel, Wilmar, Téo, Noah"],
+        grupo: "Pesquisa 5",
         data: "2026-11-15",
         resumo: "Conheça os questionamentos de órgãos públicos sobre o licenciamento de data centers em Campinas, Sumaré e Hortolândia.",
         texto: [
@@ -169,7 +169,7 @@ const trabalhos = [
             "A fiscalização ambiental não deve ser entendida como oposição automática ao desenvolvimento tecnológico. Seu objetivo é garantir que os investimentos ocorram de acordo com a legislação, com transparência, prevenção de danos e proteção dos interesses coletivos."
         ],
         imagem: {
-            src: "https://static.wixstatic.com/media/62e464_8c71ab793c154069abee3b32a759ed83~mv2.jpg/v1/fill/w_980%2Ch_549%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/62e464_8c71ab793c154069abee3b32a759ed83~mv2.jpg",
+            src: "img/62e464_8c71ab793c154069abee3b32a759ed83~mv2.avif",
             alt: "Técnico usando capacete e colete de segurança durante uma inspeção em uma instalação industrial.",
             legenda: "A fiscalização permite verificar se os empreendimentos cumprem as exigências ambientais."
         },
